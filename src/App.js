@@ -1,21 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Question from './components/Question';
+import Question from './components/day-1/Question';
 import { useState } from 'react';
+import Input from './components/day-2/Input';
+import Output from './components/day-2/Output';
+import Layout from './components/Layout';
 
 function App() {
-
-  const [state, setState] = useState({
-    question: "Who is ALI",
-    answer: "ALI is a full-stack developer"
-  });
-
-  const eventHandler = (event) => {
-    setState({question: state.answer, answer: state.question})
-  }
-
   return (
     <div className="App">
+      <Layout/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -29,7 +23,6 @@ function App() {
           JUST ALI
         </a>
 
-        <Question question={state.question} click={eventHandler}/>
       </header>
     </div>
   );
