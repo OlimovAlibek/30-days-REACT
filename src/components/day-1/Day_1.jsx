@@ -4,7 +4,7 @@ import Question from './Question';
 function Day_1() {
 
     const [state, setState] = useState({
-        question: "Who is ALI",
+        question: "Who is ALI?",
         answer: "ALI is a full-stack developer"
       });
     

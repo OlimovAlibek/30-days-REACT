@@ -12,9 +12,9 @@ function App() {
       <Layout/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          React 30 day Challenge
-        </p>
+        <p className="text-2xl font-bold text-center text-indigo-700 bg-indigo-100 p-4 rounded-md shadow-md">
+  30 days react!
+</p>
         <a
           className="App-link"
           href="/"
