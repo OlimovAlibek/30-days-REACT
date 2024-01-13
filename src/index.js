@@ -20,6 +20,7 @@ import Day_9 from './components/day-9/Day_9';
 import Day_10 from './components/day-10/Day_10';
 import Day_11 from './components/day-11/Day_11';
 import Day_12 from './components/day-12/Day_12';
+import Day_13 from './components/day-13/Day_13';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -41,6 +42,7 @@ root.render(
           <Route path="/day-10" element={<Day_10/>}/>
           <Route path="/day-11" element={<Day_11/>}/>
           <Route path="/day-12" element={<Day_12/>}/>
+          <Route path="/day-13" element={<Day_13/>}/>
          
         </Route>
       </Routes>
