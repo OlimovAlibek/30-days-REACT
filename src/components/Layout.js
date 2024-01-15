@@ -47,6 +47,9 @@ const Layout = () => {
           <li>
             <Link to="/day-14">Day-14</Link>
           </li>
+          <li>
+            <Link to="/day-15">Day-15</Link>
+          </li>
         </ul>
       </nav>
 
