@@ -21,6 +21,7 @@ class Day_15 extends Component {
     const apiKey = 'AIzaSyBvfitrVm53VDJE7cQ1ScuTSztoGkfGu1c';
   
     try {
+      console.log('Geocoding API Request:', `https://maps.googleapis.com/maps/api/geocode/json?latlng=${location.lat},${location.lng}&key=${apiKey}`);
       const api_call = await fetch(
         `https://maps.googleapis.com/maps/api/geocode/json?latlng=${location.lat},${location.lng}&key=${apiKey}`
       );
